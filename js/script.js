@@ -28,8 +28,9 @@ function remainsTime(){
    let remainsToNewYear = Date.parse(newYear) / 1000 + 1 - Date.parse(newClock) / 1000
    secondNewYear.textContent = remainsToNewYear
 }
+
 setInterval(getTime, 400)
-setInterval(remainsTime, 500)
+setInterval(remainsTime, 400)
 
 
 function correctTime(arg){
