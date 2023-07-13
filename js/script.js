@@ -11,7 +11,7 @@ let newYear = new Date(2023,11,31,23,59,59)
 
 setInterval(() =>{
    let newClock = new Date()
-   let remainsToNewYear = Date.parse(newYear) / 1000 - Date.parse(newClock) / 1000
+   let remainsToNewYear = Date.parse(newYear) / 1000 + 1 - Date.parse(newClock) / 1000
    secondNewYear.textContent = remainsToNewYear
    hour.textContent = newClock.getHours()
    minute.textContent = newClock.getMinutes()
