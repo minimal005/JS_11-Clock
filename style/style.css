@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue:regular&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+}
+html{
+   font-size: 170px;
+   color: rgb(57, 124, 224);
+   font-family: 'Bebas Neue', serif;
+   line-height: 1;
+}
+
+.wrapper {
+   max-width: 500px;
+   margin: 0px auto;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   border: 5px solid #000;
+   border-radius: 35px;
+   box-shadow: inset 0px 0px 127px 0px rgb(6, 75, 180);
+   padding: 10px 50px;
+}
+.hidden {
+   visibility: hidden;
+}
+.bgClock {
+   background-color: black;
+   border-radius: 30px;
+   padding: 20px 10px 0 20px;
+   display: flex;
+   justify-content: center;
+   
+}
+.bgClock > *{
+   margin-right: 15px;
+}
+.clock_miliSecond{
+   font-size: 70px;
+   margin-top: 85px;
+
+}
+.happyNewYear{
+   margin-top: 100px;
+   text-align: center;
+   font-size: 80px;
+   color: #121aa0;
+}
+.happyNewYear_smile {
+   margin-top: 50px;
+}
